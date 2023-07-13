@@ -1,5 +1,5 @@
 import * as basicLightbox from 'basiclightbox';
-import "basicLightbox/dist/basicLightbox.min.css";
+// import "basicLightbox/dist/basicLightbox.min.css";
 
 import { closeModal } from './closeModal';
 
