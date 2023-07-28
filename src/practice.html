@@ -7,6 +7,103 @@
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
+    <p><a href="index.html">Go back</a></p>
+    <!-- async, await -->
+    <form action="submit" class="js-search-country">
+      <div class="js-search-country-wrapper">
+        <input type="text" name="country" />
+      </div>
+      <button>Search country</button>
+    </form>
+    <button class="js-add-country">Add country</button>
+    <ul style="list-style: none" class="js-countries-list"></ul>
+    <br />
+    <button type="button" class="btn">Fetch users</button>
+    <ul class="users-list"></ul>
+    <!-- CRUD -->
+    <!-- pagination -->
+    <div class="alert">We're sorry, there are no more posts to load</div>
+    <ul class="posts"></ul>
+    <button type="button" class="btn">Fetch posts</button>
+    <!-- fetch -->
+    <button type="button" class="btn">Fetch users</button>
+    <ul class="user-list"></ul>
+    <!-- ipodrom -->
+    <hr />
+    <button class="js-race-btn">Почати заїзд</button>
+
+    <p class="js-progress"></p>
+    <p class="js-winner"></p>
+    <hr />
+    <hr />
+    <table class="js-results-table">
+      <thead>
+        <tr>
+          <th>Заїзд</th>
+          <th>Переможець</th>
+          <th>Час</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <hr />
+
+    <!-- promise -->
+    <button class="js-game-start">Start game</button>
+    <div class="js-game-container game-container">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+    <!-- calendar -->
+    <div class="calendar">
+      <div class="date-style">
+        День тижня:
+        <div class="date-day">0</div>
+      </div>
+
+      <div class="date-style">
+        День місяця:
+        <div class="date">0</div>
+      </div>
+
+      <div class="date-style">
+        Місяць:
+        <div class="date-month">0</div>
+      </div>
+
+      <div class="date-style">
+        Рік:
+        <div class="date-year">0</div>
+      </div>
+    </div>
+
+    <div class="digital-clock">0</div>
+
+    <div class="clock">
+      <div class="clock-arrow clock-seconds__arrow"></div>
+      <div class="clock-arrow clock-minutes__arrow"></div>
+      <div class="clock-arrow clock-hours__arrow"></div>
+      <div class="clock-center"></div>
+    </div>
+
+    <!--------------------------------------------------------------------->
+    <!-- notification -->
+    <p class="js-alert success alert">Successful operation</p>
+    <!--------------------------------------------------------------------->
+    <!-- дата -->
+    <!--------------------------------------------------------------------->
+    <!-- інтервали -->
+    <button class="btn js-start">Start</button>
+    <button class="btn js-stop">Stop</button>
+    <!--------------------------------------------------------------------->
+    <!-- таймери -->
+    <div class="box js-box">
+      <h2>Реклама: 👀</h2>
+      <p><span class="js-timer"></span></p>
+    </div>
+    <button type="button" class="btn">Click me</button>
+    <!--------------------------------------------------------------------->
     <!-- message in localStorage -->
     <p>Value from localStorage: <span id="output"></span></p>
     <form id="message-form">

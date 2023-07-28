@@ -1,0 +1,190 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "model": "Volvo XC90",
+      "type": "SUV",
+      "price": 60000,
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg"
+    },
+    {
+      "id": 2,
+      "model": "Audi A4",
+      "type": "Sedan",
+      "price": 50000,
+      "img": "https://avatars.mds.yandex.net/get-verba/1535139/2a0000017f5901ab3c6c4f2b477b5bdf118e/cattouchret"
+    },
+    {
+      "id": 3,
+      "model": "BMW X5",
+      "type": "SUV",
+      "price": 70000,
+      "img": "https://avatars.mds.yandex.net/get-verba/3587101/2a00000186371facfbe93727d461bd1c4381/cattouchret"
+    },
+    {
+      "id": 4,
+      "model": "Mercedes-Benz C-Class",
+      "type": "Sedan",
+      "price": 55000,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mercedes-Benz_W206_IMG_6380.jpg"
+    },
+    {
+      "id": 5,
+      "model": "Toyota Camry",
+      "type": "Sedan",
+      "price": 35000,
+      "img": "https://toyota-ua.com/uploads/media/dc_car_gallery/0002/48/thumb_147812_dc_car_gallery_new_slider.png.webp"
+    },
+    {
+      "id": 6,
+      "model": "Ford Mustang",
+      "type": "Coupe",
+      "price": 45000,
+      "img": "https://auto.24tv.ua/resources/photos/news/202304/449522d50cf99-eda0-4982-bd7c-236cf3dbd20a.jpg?1682420674000&fit=cover&w=1200&h=675&q=65"
+    },
+    {
+      "id": 11,
+      "model": "Sergio yellow VOLVO",
+      "price": 20000,
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg"
+    },
+    {
+      "model": "sergio VOLVO",
+      "price": "min",
+      "id": 13
+    },
+    {
+      "model": "my VOLVO",
+      "type": "any",
+      "price": "min",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 14
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 15
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 16
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 17
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 18
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "new min price",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 19
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 20
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 21
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 22
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 23
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 24
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 25
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 26
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 27
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 28
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 29
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 30
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 31
+    },
+    {
+      "model": "my yellow VOLVO",
+      "type": "any",
+      "price": "norm",
+      "img": "https://archibalds.co.nz/wp-content/uploads/2021/08/volvo-xc90-1920x760-1.jpg",
+      "id": 32
+    }
+  ]
+}

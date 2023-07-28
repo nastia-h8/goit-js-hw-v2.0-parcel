@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* padding: 15px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-btn {
+    background-color: #ccc;
+    color: #212121;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms linear, border-color 250ms linear;
+}
+
+.search-btn:hover,  .search-btn:focus{
+    background-color:#a09c9c;
+    border-color: #a09c9c;
+}
+
+
+.wrapper{
+    position: fixed;
+    top:0;
+    z-index: 99;
+    width: 100%;
+
+    padding: 10px 0;
+    text-align: center;
+    background-color: #5897fb;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+
+.gallery {
+    margin-top: 60px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.photo-link{
+    height:300px;
+    width: 350px;
+    overflow: hidden;
+    text-decoration: none;
+    color: currentColor;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+transition: transform 250ms linear;
+}
+
+.photo-link:hover, .photo-link:focus{
+    transform: scale(1.05);
+}
+
+
+.photo-card img{
+object-fit: cover;
+}
+
+/* Колір для інформаційних елементів */
+.info {
+padding: 10px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.info-item{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.load-more-wrapper{
+    text-align: center;
+}
+
+.loader-wrapper{
+display: flex;
+justify-content: center;
+}
+
+
+.loader {
+    position: fixed;
+    top: 50%;
+    z-index: 499;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #5897fb;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+
+
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.load-more-wrapper{
+    text-align: center;
+}
+
+.button-up {
+    z-index:499;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    cursor: pointer;
+}
+
+.icon{
+    fill:#5897fb;
+}
+
+.is-hidden {
+    display: none;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/pixabay.css" />
+  </head>
+  <body>
+    <div class="loader-wrapper"><span class="loader"></span></div>
+    <div class="wrapper">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          required
+        />
+        <button class="search-btn" type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="gallery js-gallery"></div>
+    <div class="js-guard"></div>
+    <button class="js-button-up button-up is-hidden">
+      <svg class="icon icon-circle-up" width="50" height="50">
+        <use xlink:href="#icon-circle-up"></use>
+        <symbol id="icon-circle-up" viewBox="0 0 32 32">
+          <path
+            d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16-7.163-16-16-16-16 7.163-16 16zM29 16c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13 13 5.82 13 13z"
+          ></path>
+          <path
+            d="M22.086 20.914l2.829-2.829-8.914-8.914-8.914 8.914 2.828 2.828 6.086-6.086z"
+          ></path>
+        </symbol>
+      </svg>
+    </button>
+    <div class="js-load-more-wrapper load-more-wrapper is-hidden">
+      <p>We're sorry, but you've reached the end of search results.</p>
+    </div>
+
+    <!-- LOAD MORE BTN ------------------------------------------------------- -->
+    <!-- <div class="loader-wrapper"><span class="loader"></span></div>
+    <div class="wrapper">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="gallery js-gallery"></div>
+    <div class="load-more-wrapper">
+      <button type="button" class="load-more js-load-more is-hidden">
+        Load more
+      </button>
+      <p class="js-load-more-text is-hidden">
+        We're sorry, but you've reached the end of search results.
+      </p>
+    </div> -->
+    <script type="module" src="./js/pixabay11.js"></script>
+  </body>
+</html>

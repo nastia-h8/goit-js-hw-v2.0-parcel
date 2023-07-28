@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+    
+    /* background-image: linear-gradient(#88d9ef, #9198e5); */
+}
+
+/* Розмітка контейнера */
+.js-list {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 4 стовпці в рядку */
+    grid-gap: 20px;
+    /* Відступ між елементами */
+    list-style: none;
+    /* Відключення маркерів списку */
+    padding: 0;
+    margin: 50px 0;
+}
+
+/* Стилізація елементів списку */
+.js-list li {
+    
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    /* Перша рядок - зображення, другий - заголовок */
+    /* align-items: center; */
+    /* Вирівнювання елементів по вертикалі */
+    text-align: center;
+}
+
+.js-list img {
+    display: block;
+    width: 100%;
+    /* Розтягнути зображення на 100% ширини контейнера */
+    max-height: 200px;
+    /* Обмеження висоти зображення для збереження пропорцій */
+    object-fit: cover;
+    /* Масштабування зображення для заповнення контейнера без втрати пропорцій */
+    border-radius: 10px;
+    /* Закруглені кути зображення */
+}
+
+.js-list h2 {
+    margin: 10px 0;
+    /* Відступи для заголовків */
+    font-size: 18px;
+}
+
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+div{
+    text-align: center;
+}
+
+input{
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
+
+/* Загальні стилі для списку */
+.js-list-rep {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Вирівнювання елементів по горизонталі зі збільшенням прогалин між ними */
+}
+
+/* Стилізація елементів списку */
+.js-list-rep li {
+    
+    width: calc(50% - 10px);
+    /* Розмір елементів - половина ширини екрану зі збільшенням прогалин */
+    margin-bottom: 20px;
+}
+.js-list-rep a{
+   
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* Стилізація статей */
+.js-list-rep article {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.js-list-rep img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.js-list-rep h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.js-list-rep p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.spinner-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.spinner-wrapper .spinner{
+    margin-right: 10px;
+}
+
+.btn-load-more[disabled]{
+background-color: gray;
+}
+
+.search-btn[disabled] {
+    background-color: gray;
+}
